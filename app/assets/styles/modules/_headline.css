@@ -9,4 +9,19 @@
 	&--orange {
 		color: $mainOrange;
 	}
+
+	&--small {
+		font-size: 1.875rem;
+	}
+
+	&--narrow {
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&--light {
+		font-weight: 100;
+	}
+
 }
