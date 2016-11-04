@@ -25,3 +25,8 @@ gulp.task('watch', function () {
         gulp.start('styles');
     })
 });
+gulp.task('build', function () {
+    return gulp.src('./app/**/*.html')
+           .pipe(postcss([cssImport, cssvars, nested, autoprefixer]))
+           .pipe(gulp.dest('./app/temp/styles'));
+});
