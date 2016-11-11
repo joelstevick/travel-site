@@ -17,10 +17,10 @@
     &__title {
         font-weight: 300;
         color: $mainBlue;
-        font-size: 2.4remrem;
+        font-size: 2.4rem;
         margin: 0;
         @mixin atSmall {
-            font-size: 2rem;
+            font-size: 4.8rem;
         }
         @mixin atLarge {
             font-size: 24.8em;
